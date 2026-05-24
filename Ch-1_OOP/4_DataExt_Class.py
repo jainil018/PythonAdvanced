@@ -17,8 +17,17 @@ class DataExt:
 
     def fetch_parquet(self):
         # Write your custom logic
-        df = pd.read_parquet(self.file_path)
-        print(df.head())
+        df = pd.read_parquet(self.file_path)   
+        print(df.head()) 
 
-obj = DataExt("Ch-1_OOP/Files/orders.json")
-obj.fetch_json()
+# obj = DataExt("C:/Users/w/PycharmProjects/PythonAdvanced/Ch-1_OOP/Files/orders.json")
+# obj.fetch_json()
+
+# obj = DataExt("C:/Users/w/PycharmProjects/PythonAdvanced/Ch-1_OOP/Files/orders.csv")
+# obj.fetch_text(",")
+
+# obj = DataExt("C:/Users/w/PycharmProjects/PythonAdvanced/Ch-1_OOP/Files/orders.tsv")
+# obj.fetch_text("\t")
+
+obj = DataExt("C:/Users/w/PycharmProjects/PythonAdvanced/Ch-1_OOP/Files/orders.parquet")
+obj.fetch_parquet()

@@ -27,7 +27,7 @@ obj.func1() # It will print "Hello World, pqr" because we have changed the value
 
 # This will not give error but it will create a new variable dyn2 in the object and assign the value "stu" to it. It will not change the value of __dyn2 which is a private variable.
 obj.dyn2 = "stu"
-print(obj.dyn2)
+print(obj.dyn2) 
 obj.func2() # It will print "Hello Globe, def" because the value of __dyn2 is still "def" and it is not changed by obj.dyn2 = "stu" statement.
 
 

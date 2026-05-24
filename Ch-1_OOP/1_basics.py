@@ -1,8 +1,8 @@
 class MyClass:
 
     # Class variables
-    var1 = "Jainil"
-    var2 = "Chhowala"
+    var1 = "Ansh"
+    var2 = "Lamba"
 
     def func1(self):
         print("Hello World")
